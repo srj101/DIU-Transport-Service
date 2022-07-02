@@ -1,6 +1,6 @@
 import React from 'react'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+import Icon from 'react-native-vector-icons/FontAwesome';
 import Home from './../SCREENS/Home';
 import MyMap from './../SCREENS/MyMap';
 import Profile from './../SCREENS/Profile';
@@ -19,7 +19,7 @@ const BottomTabs = () => {
         options={{
           tabBarLabel: 'Map',
           tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="map" color={color} size={size} />
+            <Icon name="facebook" color={color} size={size} />
           ),
         }}
       />
@@ -29,7 +29,7 @@ const BottomTabs = () => {
         options={{
           tabBarLabel: 'Home',
           tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="bell" color={color} size={size} />
+            <Icon name="facebook" color={color} size={size} />
           ),
         }}
       />
@@ -39,7 +39,7 @@ const BottomTabs = () => {
         options={{
           tabBarLabel: 'Profile',
           tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="account" color={color} size={size} />
+            <Icon name="facebook" color={color} size={size} />
           ),
         }}
       />
